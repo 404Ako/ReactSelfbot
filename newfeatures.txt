@@ -1,0 +1,838 @@
+help | Shows the main menu
+fun [Page/All] | Fun commands
+text [Page/All] | Text commands
+info [Page/All] | Information commands
+user [Page/All] | User and Selfbot commands
+image [Page/All] | Image commands
+tool [Page/All] | Tool commands
+server [Page/All] | Server commands
+administration | Administration commands
+nsfw | NSFW image commands
+abuse | Abusive commands
+raid | Raid commands
+usersettings | Discord User settings commands
+botsettings | Selfbot settings commands
+customization | Selfbot customization commands
+searchcmd <Content> | Searches for a command
+repeatcmd | Repeats last command
+usage <Command> | Shows the usage of a command
+description <Command> | Shows the description of a command
+shelp | Shows all commands in the console
+favoritecmds | Favorite commands
+spam <Amount> <Timeout in Seconds> <Message> | Spams a specific message specific amount of times
+spamtts <Amount> <Timeout in Seconds> <Message> | Spams a specific tts message specific amount of times
+filespam | Spams the text from Spam.txt line by line
+ascii <Text> | Shows text in ASCII format
+poll <Message> | Starts a poll with a specific message
+suggestion <Message> | Sends a suggestion with a specific message
+reverse <Text> | Reverses Text
+fliptext <Text> | Flips the text upside down
+zalgo <Text> | Adds Zalgo characters to a Text
+1337 <Text> | Turns Text to a 1337/leet message
+uwu <Text> | UwUfies a message
+mock <Text> | Spongemocks text
+_base64 <Encode/Decode> <Text> | Encode/Decode text to/from Base64
+notfunny | Tells someone how unfunny they are
+noob | Tells someone what noob they are
+beescript | Sends the whole Bee Movie Script line by line
+hastebin <Text> | Uploads text to hastebin.com
+loremipsum <Words> | Generates a Lorem Ipsum text with a specified amount of words
+embed <Title> <Text> | Sends and Embed with a custom title and text
+react <Text> [Message ID] [Channel] [Combine(true/false)] | Reacts with the Text translated in Emotes
+uwumode | Toggles UwU Mode
+mockmode | Toggles Mock Mode
+empty | Sends an empty message
+morse <Text> | Convert text to morse code
+unmorse <Text> | Convert morse code to text
+emojify <Text> | Converts text into emojis
+tinyurl <URL> | Converts a URL to a TinyURL
+clap <Sentence> | Puts a clap emoji between each word
+cap <Sentence> | Puts a cap emoji between each word
+semoji <Emoji> <Sentence> | Puts a custom emoji between each word
+markdownblocks | Shows available Markdown code block commands
+animate <Text> | Animates text
+count <From> <To> | Counts from one number to another
+strike <Text> | Puts a line through the text
+spoil <Text> | Puts a spoiler on the text
+lspoil <Text> | Puts a spoiler on each letter of the text
+bold <Text> | Makes text bold
+italic <Text> | Makes text italic
+underline <Text> | Makes text underlined
+blockquote <Text> | Makes text quoted
+upper <Text> | Sends text uppercase
+lower <Text> | Sends text lowercase
+randomguildemoji | Sends a random emoji from the guild (only guilds)
+countdown <From> <To> | Counts from one number to another (down)
+texttobinary <Text> | Converts text to binary
+binarytotext <Binary> | Converts binary to text
+toenchantmenttable <Text> | Translates english to enchantment table language
+cembed <Title> [Description] [Footer] [Image URL] | Custom embed
+clear | Clear the chat without permissions
+shrug | Sends a shrug text emoticon
+tableflip | Sends a tableflip text emoticon
+unflip | Sends a table unflip text emoticon
+emoji <Emoji> | Send emoji in bigger format
+vape <Text> | Vaporwave-style message
+space <Text> | Spaced message
+sleeklaunch <IP> <Port> <Duration> <Method> <PPS> | Starts a Sleek.to attack
+sleekstop <Test ID> | Stops a Sleek.to attack
+sleekstatus <Test ID> | Shows information about a Sleek.to attack
+sleekmethods | Shows available Sleek.to attack methods
+encryption | Shows encryption commands
+invisibleping <User> <Message> | Sends a message with an invisible ping
+hiddeninvite <URL> <Text> | Hide a discord invite behind your text
+hiddenlink <URL> <Spoofed URL> | Spoof an URL
+hiddeneveryone <Text> | Hide a @everyone ping behind your text
+fakenitro <Link> | Generates fake Nitro URL
+fakeskeet <Link> | Generates fake Skeet Invite URL
+fakelink <Fake Link> <Original Link> | Sends a fake link
+networking | Networking commands
+dox <Token> | Shows information about someones Discord Account
+tokenfucker <Token> | Changes all settings and let's the Account flicker black and white
+nuketoken <Token> | Purges all guilds and blocks all friends of a Discord Account
+bantoken <Token> | Bans someones Discord Account
+blackscreenurl | Sends a URL which let's people who use Windows get a black screen
+firstmessage | Jump to first message
+dumpchat <Amount> | Saves the channel messages into a file and uploads it
+gping <@User> | Ghostpings an user
+timer <Seconds> <Name> | Set a timer
+savebackup <Name> | Saves a full server backup
+loadbackup <Name> | Loads a full server backup
+deletebackup <Name> | Deletes a server backup
+listbackup | Shows all server backups
+impersonate <User> <Message> | Impersonates a user using a webhook
+delwebhook <Webhook URL> | Deletes a Webhook
+infograbber <Discord Webhook URL> | Creates a info grabber exe file which grabs Discord tokens and computer information
+calculator | Opens calculator [Windows only]
+winexplorer | Opens Windows Explorer [Windows only]
+folder | Open React folder [Windows only]
+webopen <URL> | Opens an URL in your web browser
+leavegroups | Leaves all Groups
+fakedata | Generates a fake identity
+bottoken | Generates a random Discord bottoken
+ebayviews <Amount> <Link> | Adds eBay views
+tempmail | Creates a Temporary Mail
+dm <User> <Text> | Sends a direct message to an user (Bypasses if you have blocked the user)
+friendexport | Backups __some__ of your friends
+purge <Amount> | Purges a specified amount of messages
+spurge <Amount> | Purges a specified amount of your own messages
+bulkreact <Amount> <Emoji> | Reacts to an amount of messages above
+bulkpin <Amount> | Pins the amount of messages above
+miraicrash <IP Address> <Port> | Crashes a Mirai Botnet
+massghostping <User> | Ghostpings a person in every channel
+globalmassghostping <User> | Ghostpings a person in every channel in every mutual server
+giveaway <Seconds> <Winners> <Prize> | Starts a giveaway
+proxyscrape | Scrapes proxies from Proxyscrape
+sleek | Shows available Sleek.to commands
+todo <Task> | Adds a task to the TODO list
+tododel <Task> | Removes a task from the TODO list
+todolist | Shows the TODO list
+todoclear | Clears the TODO list
+yt2mp4 <YouTube URL> | Download a YouTube Video
+eval <Code> | Evaluate Python code
+remoteexecute <Channel> <Command> [Arguments] | Execute a command in another channel
+boobs | Shows a boobs image
+anal | Shows a anal image
+porngif | Shows a porn gif image
+hentai | Shows a hentai image
+hentaiass | Shows a hentai ass image
+hentaianal | Shows a hentai anal image
+hentaiboobs | Shows a hentai boobs image
+hentaitentacle | Shows a hentai tentacle image
+hentaipussy | Sends a random hentai pussy image
+hentaikuni | Sends a random hentai kuni image
+hentaitits | Sends a random hentai tits image
+hentaiketa | Sends a random hentai keta image
+hentaikemonomimi | Sends a random hentai kemonomimi image
+hentaigasm | Sends a random hentai gasm image
+blowjob | Shows a blowjob image
+feet | Shows a feet image
+yaoi | Shows a yaoi image
+ass | Shows an ass image
+cum | Shows a cum image
+trap | Shows a trap image
+futanari | Shows a futanari image
+spank | Shows a spank image
+rule34 | Sends a random rule34.xxx image
+reactencrypt <Message> | Encrypt a message for React Selfbot users
+reactdecrypt <Message> | Decrypt a message from a React Selfbot user
+whirlpool <Text> | Encrypts text to whirlpool
+sha512 <Text> | Encrypts text to sha512
+sha256 <Text> | Encrypts text to sha256
+sha1 <Text> | Encrypts text to sha1
+md5 <Text> | Encrypts text to md5
+rot13 <Text> | Encrypts text to ROT-13
+unrot13 <Text> | Decrypts text from ROT-13
+privatebin <Expiration(5min/10min/1hour/1day)> <Burn after reading(true/false)> <Text> | Uploads text to privatebin.info
+dmall <Text> | DM's all users on the server with the specified message
+banall | Bans all users on the server except yourself
+kickall | Kicks all users on the server except yourself
+nickall <Nick> | Nicks all members
+deleteroles | Deletes all roles on the server
+deletechannels | Deletes all channels on the server
+purgeserver | Deletes all channels and roles
+masschannels | Creates 250 random named channels
+massroles | Creates 250 random named roles
+massunban | Unbans all users on the server
+cloneserver [Server ID] | Creates a server with the same channels and roles
+destroyserver [Server ID] | Deletes all channels, roles and kicks/bans all members and creates random channels and roles
+dumpemojis [Server ID] | Saves all Emojis into an folder
+rainbowrole <Role> | Fades the role color
+unbanall | Unban all users
+renameallroles <Name> | Rename all roles
+renameallchannels <Name> | Rename all channels
+loopservername <Text> | Loop server name
+stoploopservername | Stop looping server name
+nukechannel <Channel> | Clones a channel and deletes the original
+bannedusers | Shows banned users
+channels [Server ID] | Show server channels (including hidden ones)
+delemojis | Deletes all server emojis
+renameserver <Name> | Renames the server
+massping | Pings as many people as possible
+massgping | Mass ghostpings
+cloneservertoserver <ToServerID> <FromServerID> | Clones a server to an existing one
+makerole <Name> | Creates a role
+addrole <Member> <Role> | Gives a role to a member
+removerole <Member> <Role> | Removes a role from a member
+roles [Server ID] | Shows roles
+avatar [User] | Shows user's avatar
+serverlogo [Server ID] | Shows server's logo
+grouplogo | Shows groupchats's logo
+roleinfo <Role> | Shows role information
+serverinfo [Server ID] | Shows server information
+userinfo [User] | Shows user information
+covid [Country] | Shows live COVID-19 stats
+pcspecs | Sends your PC specifications
+urbandict <Word> | Shows the urban definition of a word
+calc <Equation> | Calculates the mathematical answer of an equation
+namehistory <Minecraft Username> | Shows the name history of a Minecraft account
+pokedex <Pokemon> | Shows Pokedex information about a Pokemon
+ping | Shows your latency
+fnstats <Fortnite Name> | Shows the Fortnite stats of an user
+snowflakeinfo <Snowflake ID> | Discord Snowflake information
+dogfact | Random dog fact
+catfact | Random cat fact
+rockstarid <SocialClub Name> | Resolves Social Club's Rockstar ID of a user
+weather <City> | Shows the current weather in the specified city
+discordstatus | Shows current Discord Status
+uptime | Shows the selfbot uptime
+morsetable | Shows the morse code alphabet
+define <Word> | Shows the definition of a word
+howgay <User> | Shows how gay a user is
+howcorona <User> | Shows how corona positive a user is
+howfurry <User> | Shows how forry a user is
+lovecalc <User 1> <User 2> | Love Calculator between two users
+iq <User> | Shows User's IQ
+deathdate <User> | Shows the Death Date of a user
+lyrics <Title> | Shows the lyrics of a song
+translate <FromLang> <ToLang> <Text> | Translates text to a specific language
+mcskin <Minecraft Username> | Shows the Minecraft skin of the user
+mcuuid <Minecraft Username> | Shows the Minecraft UUID of the user
+color <HEX Code> | Shows information about the color
+numberfact <Number> | Shows a fact about a number
+motd | Displays React Selfbot MOTD
+howcap <User> | Shows if a user is capping
+mcserver <Address> | Shows information about a Minecraft Server
+csgostats <Profile ID/Name> | Shows CS:GO Statistics
+rlstats <Profile ID/Name> | Shows Rocket League Statistics
+apexstats <Origin Name> | Shows Apex Legends Statistics
+valorantstats <Riot Name With Tag> | Shows Valorant Statistics
+rockstargamesstatus | Shows Rockstar Games Status
+unixtime <Timestamp> | Converts an UNIX timestamp to time (UTC)
+emojiinfo <Emoji> | Emoji information
+watchuser <User> | Notifies you when an user changes his activity, online status, avatar or username
+unwatchuser <User> | Stops watching an user
+watchlist | Shows users in the watcher
+unwatchall | Stops watching all users
+changelog | Shows the latest changelog
+lookupuser <User ID> | Lookups an user by his ID
+listscripts | Shows your installed scripts
+amazonsearch <Product> | Searches Amazon products
+youtubesearch <Search> | Searches YouTube videos
+googlesearch <Search> | Searches Google
+pornhubsearch <Search> | Searches PornHub videos
+steamsearch <Search> | Searches Steam games
+githubsearch <Search> | Searches GitHub repositories
+stackoverflowsearch <Search> | Searches StackOverflow answers
+wikisearch <Search> | Searches Wikipedia articles
+pornsearch <Search> | Searches PornHub, YouPorn, RedTube, etc. Videos
+sherlocksearch <Username> | Searches for social media accounts
+rpc | Toggles Rich Presence
+rpccustommode | Toggles custom mode
+rpcappid <Application ID> | Sets the RPC Application ID
+rpcdetails <Details> | Sets the RPC details
+rpcstate <State> | Sets the RPC state
+rpclargeimage <Image Name> | Sets the RPC large image
+rpclargeimagetext <Text> | Sets the RPC large image text
+rpcsmallimage <Image Name> | Sets the RPC small image
+rpcsmallimagetext <Text> | Sets the RPC small image text
+rpctime | Toggle RPC Time
+rpcbtnonelabel <Label> | Sets the button one label
+rpcbtnoneurl <URL> | Sets the button one URL
+rpcbtntwolabel <Label> | Sets the button two label
+rpcbtntwourl <URL> | Sets the button two URL
+rpcupdate | Restarts the bot to apply some rich presence features
+coinflip | Flips a Coin
+cocksize <Users> | Do a Cock comparison
+_8ball <Question> | Ask the Magic 8 ball
+dadjoke | Tells a dad joke
+joke | Tells a joke
+chucknorrisjoke | Tells a Chuck Norris joke
+wyr | Posts a Would you Rather embed
+topic | Changes the topic
+trumpquote | Shows a random Donald Trump quote
+ccgen [Mastercard/Visa/Amex/Discover] | Generates a fake credit card
+_911 | Sends a short 9/11 animation
+choose <Options> | Takes a random choice between options
+nitro <Amount> | Generates Nitro and sends Codes every 3 seconds
+search | Shows search commands
+lmgtfy <Search> | Sends a Let Me Google That For You Link
+slots | Gamble with a slot machine
+tts <Language(en/de/fr/es/etc)> <Text> | Generates a Text To Speech mp3 and sends it
+passwordgen | Generates a secure password
+rps <Rock/Paper/Scissors> | Play a game of Rock, Paper, Scissors against an AI
+animatenick <Text> | Animated nickname
+stopanimatenick | Stop annimated nickname
+hypesquadcycle | Cycle HypeSquad houses
+dice [Sides] | Rolls a dice with the specified amount of sides
+creeper | Sends an infinite creeper gif
+advice | Gives a random advice
+fml | Sends a random FML
+dankfarm | Starts farming coins for Dank Memer
+snipe | Shows the last deleted message
+randomusername | Generates a random username
+kanyequote | Generates a random Kanye West quote
+bored | Generates a random activity
+randomnumber [Minimum] [Maximum] | Generates a random number
+netflixroulette | Generates a random netflix show
+bubblewrap | Bubble Wrap pop
+minesweeper | Minesweeper
+randomemoji | Sends a random emoji
+spoofnitro | Sends a Nitro gift link which doesn't embed but looks real 
+uselessfact | Shows a random useless fact
+insult <User> | Insults an user
+nwordcounter | Shows how many times the n-word has been said
+truthordare [Truth/Dare] | Random Truth or Dare
+spamtillyouredead | Custom Dance till you're dead lyrics
+playing <Status> | Sets your playing status
+streaming <Status> | Sets your streaming status
+listening <Status> | Sets your listening status
+watching <Status> | Sets your watching status
+removestatus | Removes your status
+online | Sets your status to online
+idle | Sets your status to idle
+dnd | Sets your status to do not disturb
+invisible | Sets your status to invisible
+statuscycleadd <Word> | Adds a word to the status cycle
+statuscycle | Toggles status cycle
+statuscycleclear | Clears the status cycle words
+onlinestatuscycle | Toggles online status cycle
+setupwhooks | Creates a category, channels, webhooks and saves them to the config
+webhook <Name> | Creates a webhook
+wall <URL> | Sets the webhook URL for everything
+wnitro <URL> | Set Nitro webhook URL
+wgiveaways <URL> | Set giveaways webhook URL
+wsbdetection <URL> | Set Selfbot Detection webhook URL
+wgpings <URL> | Set Ghostpings webhook URL
+wcmds <URL> | Set Command usage webhook URL
+wdmdels <URL> | Set DM deletions webhook URL
+wprivnotes <URL> | Set Privnotes webhook URL
+wwatcher <URL> | Set Watcher webhook URL
+wserverban <URL> | Set Server Bans webhook URL
+wtickets <URL> | Set Tickets detection webhook URL
+wrelationships <URL> | Set Relationship updates webhook URL
+wroleupdates <URL> | Set Role updates webhook URL
+wnickname <URL> | Set Nickname updates webhook URL
+ndmdels | Toggles DM deletion Windows notifications
+nnitroredeem | Toggles Nitro redeem Windows notifications
+nghostping | Toggles ghostping Windows notifications
+nprivnote | Toggles Privnote Windows notifications
+ngiveawaywin | Toggles giveaway win Windows notifications
+ngiveawayjoin | Toggles giveaway join Windows notifications
+nsbdetection | Toggles selfbot detection Windows notifications
+ntickets | Toggles ticket detection Windows notifications
+nrelationships | Toggles relationship detection Windows notifications
+nroleupdates | Toggles role updates detection Windows notifications
+nnickname | Toggles Nickname updates detection Windows notifications
+snsnipe | Toggles successfull Nitro snipe sound notifications
+sgwin | Toggles giveaway win sound notifications
+sprivnotes | Toggles Privnotes snipe sound notifications
+ssbdetection | Toggles selfbot detection sound notifications
+sdmdels | Toggles DM deletions sound notifications
+sban | Toggles server ban sound notifications
+sghostping | Toggles Ghostping sound notifications
+srelationships | Toggles Relationship updates sound notifications
+stickets | Toggles Tickets detection sound notifications
+sroleupdates | Toggles Role updates detection sound notifications
+snickname | Toggles Nickname updates detection sound notifications
+status | Shows status commands
+darkmode | Changes your Discord theme to dark
+lightmode | Changes your Discord theme to light
+messagedisplay <Compact/Cozy> | Changes your message display
+developer <Enable/Disable> | Enables/Disables Discord Developer mode
+typing <Seconds> | Shows typing... message for the specified amount of seconds
+invisiblenickname | Changes your nickname to invisible letters
+junknickname | Changes your nickname to junk letters
+hypesquad <Bravery/Balance/Brilliance> | Changes your HypeSquad House
+addfriend <User> | Adds someone as a friend
+unfriend <User> | Removes a friend
+block <User> | Blocks a user
+unblock <User> | Unblocks a user
+setusername <Name> | Sets your Discord username
+setpfp <URL> | Sets your Discord profile picture
+unverify | Unverify your email
+changeprefix <New Prefix> | Changes selfbot prefix
+restartbot | Restarts the Selfbot
+stopbot | Stops the bot
+updatebot | Updates the Selfbot
+showsettings | Sends your Selfbot settings
+deletecommands | Toggle deleting command invoke message
+disablecommand <Command> | Disables a selfbot command
+enablecommand <Command> | Enables a selfbot command
+disabledcommands | List of disabled commands
+nitrosniper | Toggles Nitro sniping
+selfbotdetection | Toggles Selfbot user detection
+privnotesniper | Toggles Privnote sniping
+ghostpingdetection | Toggles ghostping detection
+giveawaysniper | Toggles Giveaway sniping
+giveawaytimeout <Seconds> | Sets the Giveaway sniper timeout
+giveawayblacklistadd <Word> | Add a word to the giveaway word blacklist
+giveawayblacklistdel <Word> | Delete a word from the giveaway word blacklist
+giveawayblacklist | Shows the giveaway blacklist
+ignorenitro <Channel> | Ignores Nitro codes form a channel
+stopignorenitro <Channel> | Stop ignoring Nitro codes form a channel
+ticketdetection | Toggles ticket detection
+relationshipdetection | Toggles relationship update detection
+afkmsg <New Message> | Change your AFK auto-reply message
+deletetimeout <Infinite/(Seconds)> | Sets the time after that embeds should be deleted
+streamingurl <URL> | Sets the URL for the streaming command
+whookurls | Shows Webhook URL commands
+snotifs | Shows sound notifications commands
+toastnotifs | Shows Windows Toast notifications commands
+themes | Shows the available themes
+theme <Theme Name> | Selects a theme
+cloudthemes | Shows the available cloudthemes
+cloudthemeinstall <Theme Name> | Installs a cloud theme
+newtheme <Name> | Creates a new theme and switches to it
+deltheme | Deletes the current theme
+themeshuffle | Toggle theme shuffle
+exporttheme | Sends the current theme in the chat
+languages | Shows the available languages
+language <Language ID> | Selects a language
+switchmode | Switch to Codeblock/Embed mode
+sbtitle <New Title> | Sets the selfbot title
+globalemoji <New Emoji> | Sets the global emoji
+embedcolor <Hexcode> | Change the embed color
+embedthumbnail <URL> | Change the embed thumbnail icon
+embedauthorname <Name> | Change the embed author name
+embedauthoricon <URL> | Change the embed author icon
+embedauthorurl <URL> | Change the embed author URL
+embedtitleurl <URL> | Change the embed title URL
+embedfootericon <URL> | Change the embed footer icon
+embedfooter <Text> | Change the embed footer text
+footertimestamp | Enables/Disables the footer timestamp
+customcmdadd <Command Name Without Prefix> <Content> | Creates a custom command
+customcmddel <Command Name With Prefix> | Deletes a custom command
+customcmdlist | Shows available custom commands
+remotecommandsuseradd <User> | Allows other user to use selfbot commands
+remotecommandsuserdel <User> | Disallows other user to use selfbot commands
+cmdhistory | Command history
+clearlog | Clears console log
+copyuser <User> | Repeats everything the user types
+stopcopy <User> | Stops repeating the user
+stopcopyall | Stops repeating the all users
+copymock <User> | Repeats everything the user types in a mocking way
+stopcopymock <User> | Stops copymocking the user
+deletesend <User> | Sends every message a user deletes
+stopdeletesend <User> | Stop sending every message a user deletes
+ignoreuser <User> | Ignores messages from an user
+stopignoreuser <User> | Stops ignoring messages from an user
+stopignoreallusers | Stops ignoring messages from all users
+ignorepings | Toggles ignoring @here & @everyone pings
+ignoreallpings | Toggles ignoring all pings
+clearpings <Server ID> | Clears all pings of an server
+afk | Toggles AFK Mode
+afklog | Show who sent you while being AFK
+stats | Shows your Selfbot Statistics
+userstats | Shows your Discord statistics
+mutualguilds <User> | Shows mutual guilds with user
+mutualfriends <User> | Shows mutual friends with user
+guilds | Shows a list of your guilds
+blocks | Shows a list of your blocked users
+stealname <User> | Steals someones Discord username
+stealpfp <User> | Steals someones Discord profile picture
+stealnameandpfp <User> | Steals someones Discord name and profile picture
+blockdms | Toggle blocking incoming DMs (useful when getting massdmed)
+blockincomingfriends | Toggle blocking incoming friend requests (useful when getting massfriendrequested)
+noleave <User> | User can not leave Group DM (requires friendship with the user)
+allowleave <User> | Allow user to leave the Group DM
+richpresence | Shows Rich Presence commands
+leaveallservers | Leaves all guilds
+deleteallfriends | Blocks all friends
+deletealldms | Deletes all Direct Messages
+cloudscripts | Shows the available cloudscripts
+cloudscriptinstall <Script Name> | Installs a cloud script
+addfavorite <Command> | Add a command to the favorites
+delfavorite <Command> | Delete a command from the favorites
+fox | Sends a random fox image
+duck | Sends a random duck image
+dog | Sends a random dog image
+cat | Sends a random cat image
+panda | Sends a random panda image
+redpanda | Sends a random red panda image
+koala | Sends a random koala image
+bird | Sends a random bird image
+pikachu | Sends a random pikachu image
+hug | Sends a random hug gif
+kiss | Sends a random kiss gif
+wink | Sends a random wink image
+waifu | Sends a random waifu image
+neko | Sends a random neko image
+wallpaper | Sends a random wallpaper image
+food | Sends a random food image
+sadcat | Sends a random sad cat image
+tpdne | Sends a random this person does not exist image
+yesorno | Sends a yes or no image
+belikebill | Sends a Be Like Bill image
+wasted <User> | Adds wasted overlay to avatar
+triggered <User> | Adds triggered overlay to avatar
+trumptweet <Tweet> | Generates a Trump Tweet with a custom message
+tweet <Username> <Tweet> | Tweets a message with a specific username
+achievement <Text> | Generates an Minecraft Achievement Get imagege
+phcomment <User> <Text> | Generates a PornHub comment with a custom message
+qrcode <Text> | Generates a QR Code image with the specified text
+approved <Member> | Generates a approved image with the member's profile picture
+rejected <Member> | Generates a rejected image with the member's profile picture
+batslap <Member> | Generates a batslap image with the member's profile picture
+beautiful <Member> | Generates a beautiful image with the member's profile picture
+brazzers <Member> | Generates a brazzers image with the member's profile picture
+burn <Member> | Generates a burn image with the member's profile picture
+crush <Member> | Generates a crush image with the member's profile picture
+dictator <Member> | Generates a dictator image with the member's profile picture
+discordhouse <Bravery, Brilliance, Balance> <Member> | Generates a discordhouse image with the member's profile picture
+gay <Member> | Generates a gay image with the member's profile picture
+magik <Member> | Generates a magik image with the member's profile picture
+missionpassed <Member> | Generates a missionpassed image with the member's profile picture
+rip <Member> | Generates a rip image with the member's profile picture
+scary <Member> | Generates a scary image with the member's profile picture
+sniper <Member> | Generates a sniper image with the member's profile picture
+tobecontinued <Member> | Generates a tobecontinued image with the member's profile picture
+subzero <Member> | Generates a subzero image with the member's profile picture
+vs <Member> | Generates a vs image with the member's profile picture
+wanted <Member> | Generates a wanted image with the member's profile picture
+whowouldwin <Member> | Generates a whowouldwin image with the member's profile picture
+changemymind <Text> | Generates Change my Mind image
+clyde <Text> | Generates a ClydeBOT image
+supreme <Text> | Generates a Supreme Logo image
+scroll <Text> | Generates a Scroll of Truth image
+captcha <Text> | Generates a reCAPTCHA image
+phlogo <Text 1> <Text 2> | Generates a Pornhub Logo image
+facts <Text> | Generates a facts image
+deletetrash <User> | Generates a delete trash image
+smart <User> | Generates a smart image
+shoot <User> | Generates a shoot image
+punch <User> | Generates a punch image
+bear | Generates a bear image
+car | Generates a car image
+shiba | Generates a shiba image
+goose | Sends a random goose image
+slap | Sends a random slap image
+pat | Sends a random pat image
+poke | Sends a random poke image
+tickle | Sends a random tickle image
+cuddle | Sends a random cuddle image
+smug | Sends a random smug image
+baka | Sends a random baka image
+kannagen <Text> | Generates a kanna image
+httpcat <HTTP Code> | Generates a cat image with an HTTP code
+trash <User> | Generates a trash image
+crap <User> | Generates a crap image
+simpcard <User> | Generates a simpcard image
+gif <Text> | Searches for a gif
+eject <Impostor(true/false)> <Crewmate(red,lime,blue)> <User> | Eject an user
+carreverse <Text> | Car reverse meme
+water <Text> | Water meme
+emergencymeeting <Text> | Emergency meeting meme
+iamspeed <User> | I am speed meme
+drip <User> | Drip goku meme
+firsttime <User> | First time meme
+heaven <User> | Heaven meme
+dockofshame <User> | Dock of Shame image
+icanmilkyou <User 1> <User 2> | I can milk you meme
+stonks <User> | Stonks meme
+notstonks <User> | Not stonks meme
+tableflipimg <User> | Table flip meme
+batmanslap <User(Batman)> <User(Robin)> <Text 1> <Text 2> | Batman slap meme
+distractedbf <User(Boyfriend)> <User(Woman)> <User(Girlfriend)> | Distracted boyfriend meme 
+npc <Text 1> <Text 2> | NPC meme
+wide <User> | Wide avatar
+womanyellingatcat <User(Woman)> <User(Cat)> | Woman yelling at cat meme
+drake <Text 1> <Text 2> | Drake meme
+fry <Text 1> <Text 2> | Fry meme
+bihw <Text 1> <Text 2> | But it's honest work meme
+cheems <Text 1> <Text 2> | Cheems images
+fwp <Text 1> <Text 2> | First World Problems meme
+mb <Text 1> <Text 2> | Member Berries meme
+mordor <Text 1> <Text 2> | Mordor meme
+morpheus <Text 1> <Text 2> | Matrix Morpheus meme
+pigeon <Text 1> <Text 2> | Is this a pigeon meme
+spiderman <Text 1> <Text 2> | Spiderman pointing at Spiderman meme
+spongemock <Text 1> <Text 2> | Mocking Spongebob meme
+ds <Text 1> <Text 2> | Daily Struggle meme
+ps4 <User> | PS4 Cover
+thanos <User> | Thanos effect
+moustache <User> | Moustache over avatar
+glitch <User> | Glitch effect
+dungeon <User> | Dungeon meme
+challenger <User> | Challenger approaching
+_3000years <User> | 3000 years meme
+revavatar <User> | Reverse Avatar Search
+revimage <URL> | Reverse Image Search
+aag <Text 1> <Text 2> | Ancient Aliens Guy
+ackbar <Text 1> <Text 2> | It's A Trap!
+afraid <Text 1> <Text 2> | Afraid to Ask Andy
+agnes <Text 1> <Text 2> | Agnes Harkness Winking
+aintgottime <Text 1> <Text 2> | Sweet Brown / Ain't Nobody Got Time For That
+ams <Text 1> <Text 2> | Awkward Moment Seal
+ants <Text 1> <Text 2> | Do You Want Ants?
+apcr <Text 1> <Text 2> | Almost Politically Correct Redneck
+atis <Text 1> <Text 2> | And Then I Said
+away <Text 1> <Text 2> | Life... Finds a Way
+awesome <Text 1> <Text 2> | Socially Awesome Penguin
+awesomeawkward <Text 1> <Text 2> | Socially Awesome Awkward Penguin
+awkward <Text 1> <Text 2> | Socially Awkward Penguin
+awkwardawesome <Text 1> <Text 2> | Socially Awkward Awesome Penguin
+bad <Text 1> <Text 2> | You Should Feel Bad
+badchoice <Text 1> <Text 2> | Milk Was a Bad Choice
+bd <Text 1> <Text 2> | Butthurt Dweller
+bender <Text 1> <Text 2> | I'm Going to Build My Own Theme Park
+bihw <Text 1> <Text 2> | But It's Honest Work
+biw <Text 1> <Text 2> | Baby Insanity Wolf
+blb <Text 1> <Text 2> | Bad Luck Brian
+boat <Text 1> <Text 2> | I Should Buy a Boat Cat
+both <Text 1> <Text 2> | Why Not Both?
+bs <Text 1> <Text 2> | This is Bull, Shark
+buzz <Text 1> <Text 2> | X, X Everywhere
+captain <Text 1> <Text 2> | I am the Captain Now
+captainamerica <Text 1> <Text 2> | Captain America Elevator Fight Dad Joke
+cb <Text 1> <Text 2> | Confession Bear
+cbg <Text 1> <Text 2> | Comic Book Guy
+center <Text 1> <Text 2> | What is this, a Center for Ants?!
+ch <Text 1> <Text 2> | Captain Hindsight
+cheems <Text 1> <Text 2> | Cheems
+chosen <Text 1> <Text 2> | You Were the Chosen One!
+cmm <Text 1> <Text 2> | Change My Mind
+crazypills <Text 1> <Text 2> | I Feel Like I'm Taking Crazy Pills
+cryingfloor <Text 1> <Text 2> | Crying on Floor
+db <Text 1> <Text 2> | Distracted Boyfriend
+dg <Text 1> <Text 2> | Distracted Girlfriend
+disastergirl <Text 1> <Text 2> | Disaster Girl
+dodgson <Text 1> <Text 2> | See? Nobody Cares
+dogeimg <Text 1> <Text 2> | Doge
+drake <Text 1> <Text 2> | Drakeposting
+ds <Text 1> <Text 2> | Daily Struggle
+dsm <Text 1> <Text 2> | Dating Site Murderer
+dwight <Text 1> <Text 2> | Schrute Facts
+elf <Text 1> <Text 2> | You Sit on a Throne of Lies
+ermg <Text 1> <Text 2> | Ermahgerd
+fa <Text 1> <Text 2> | Forever Alone
+facepalm <Text 1> <Text 2> | Facepalm
+fbf <Text 1> <Text 2> | Foul Bachelor Frog
+feelsgood <Text 1> <Text 2> | Feels Good
+fetch <Text 1> <Text 2> | Stop Trying to Make Fetch Happen
+fine <Text 1> <Text 2> | This is Fine
+firsttry <Text 1> <Text 2> | First Try!
+fmr <Text 1> <Text 2> | Fuck Me, Right?
+fry <Text 1> <Text 2> | Futurama Fry
+fwp <Text 1> <Text 2> | First World Problems
+gandalf <Text 1> <Text 2> | Confused Gandalf
+gb <Text 1> <Text 2> | Galaxy Brain
+gears <Text 1> <Text 2> | You Know What Really Grinds My Gears?
+ggg <Text 1> <Text 2> | Good Guy Greg
+gru <Text 1> <Text 2> | Gru's Plan
+grumpycat <Text 1> <Text 2> | Grumpy Cat
+hagrid <Text 1> <Text 2> | I Should Not Have Said That
+happening <Text 1> <Text 2> | It's Happening
+harold <Text 1> <Text 2> | Hide the Pain Harold
+hipster <Text 1> <Text 2> | Hipster Barista
+icanhas <Text 1> <Text 2> | I Can Has Cheezburger?
+imsorry <Text 1> <Text 2> | Oh, I'm Sorry, I Thought This Was America
+inigo <Text 1> <Text 2> | Inigo Montoya
+interesting <Text 1> <Text 2> | The Most Interesting Man in the World
+ive <Text 1> <Text 2> | Jony Ive Redesigns Things
+iw <Text 1> <Text 2> | Insanity Wolf
+jd <Text 1> <Text 2> | Joseph Ducreux / Archaic Rap
+jetpack <Text 1> <Text 2> | Nothing To Do Here
+joker <Text 1> <Text 2> | It's Simple, Kill the Batman
+jw <Text 1> <Text 2> | Probably Not a Good Idea
+keanu <Text 1> <Text 2> | Conspiracy Keanu
+kermit <Text 1> <Text 2> | But That's None of My Business
+kombucha <Text 1> <Text 2> | Kombucha Girl
+leo <Text 1> <Text 2> | Leo Strutting
+live <Text 1> <Text 2> | Do It Live!
+ll <Text 1> <Text 2> | Laughing Lizard
+lrv <Text 1> <Text 2> | Laundry Room Viking
+mb <Text 1> <Text 2> | Member Berries
+michaelscott <Text 1> <Text 2> | Michael Scott No God No
+millers <Text 1> <Text 2> | You Guys Are Getting Paid?
+minikeanu <Text 1> <Text 2> | Mini Keanu Reeves
+mmm <Text 1> <Text 2> | Minor Mistake Marvin
+money <Text 1> <Text 2> | Shut Up and Take My Money!
+mordor <Text 1> <Text 2> | One Does Not Simply Walk into Mordor
+morpheus <Text 1> <Text 2> | Matrix Morpheus
+mw <Text 1> <Text 2> | I Guarantee It
+nice <Text 1> <Text 2> | So I Got That Goin' For Me, Which is Nice
+noidea <Text 1> <Text 2> | I Have No Idea What I'm Doing
+ntot <Text 1> <Text 2> | No Take, Only Throw
+oag <Text 1> <Text 2> | Overly Attached Girlfriend
+officespace <Text 1> <Text 2> | That Would Be Great
+older <Text 1> <Text 2> | An Older Code Sir, But It Checks Out
+oprah <Text 1> <Text 2> | Oprah You Get a Car
+patrick <Text 1> <Text 2> | Push it somewhere else Patrick
+persian <Text 1> <Text 2> | Persian Cat Room Guardian
+philosoraptor <Text 1> <Text 2> | Philosoraptor
+pigeon <Text 1> <Text 2> | Is This a Pigeon?
+ptj <Text 1> <Text 2> | Phoebe Teaching Joey
+puffin <Text 1> <Text 2> | Unpopular opinion puffin
+red <Text 1> <Text 2> | Oh, Is That What We're Going to Do Today?
+regret <Text 1> <Text 2> | I Immediately Regret This Decision!
+remembers <Text 1> <Text 2> | Pepperidge Farm Remembers
+rollsafe <Text 1> <Text 2> | Roll Safe
+sadbiden <Text 1> <Text 2> | Sad Joe Biden
+sadboehner <Text 1> <Text 2> | Sad John Boehner
+sadbush <Text 1> <Text 2> | Sad George Bush
+sadclinton <Text 1> <Text 2> | Sad Bill Clinton
+sadobama <Text 1> <Text 2> | Sad Barack Obama
+sadfrog <Text 1> <Text 2> | Sad Frog / Feels Bad Man
+saltbae <Text 1> <Text 2> | Salt Bae
+sarcasticbear <Text 1> <Text 2> | Sarcastic Bear
+sb <Text 1> <Text 2> | Scumbag Brain
+scc <Text 1> <Text 2> | Sudden Clarity Clarence
+sf <Text 1> <Text 2> | Sealed Fate
+sk <Text 1> <Text 2> | Skeptical Third World Kid
+ski <Text 1> <Text 2> | Super Cool Ski Instructor
+snek <Text 1> <Text 2> | Skeptical Snake
+soa <Text 1> <Text 2> | Seal of Approval
+sohappy <Text 1> <Text 2> | I Would Be So Happy
+sohot <Text 1> <Text 2> | So Hot Right Now
+soupnazi <Text 1> <Text 2> | No Soup for You / Soup Nazi
+sparta <Text 1> <Text 2> | This is Sparta!
+spiderman <Text 1> <Text 2> | Spider-Man Pointing at Spider-Man
+spongebob <Text 1> <Text 2> | Mocking Spongebob
+ss <Text 1> <Text 2> | Scumbag Steve
+stew <Text 1> <Text 2> | Baby, You've Got a Stew Going
+stopit <Text 1> <Text 2> | Stop It, Get Some Help
+success <Text 1> <Text 2> | Success Kid
+tenguy <Text 1> <Text 2> | 10 Guy
+toohigh <Text 1> <Text 2> | The Rent Is Too Damn High
+tried <Text 1> <Text 2> | At Least You Tried
+trump <Text 1> <Text 2> | Donald Trump
+ugandanknuck <Text 1> <Text 2> | Ugandan Knuckles
+whatyear <Text 1> <Text 2> | What Year Is It?
+winter <Text 1> <Text 2> | Winter is coming
+wkh <Text 1> <Text 2> | Who Killed Hannibal?
+wonka <Text 1> <Text 2> | Condescending Wonka
+xy <Text 1> <Text 2> | X all the Y
+yallgot <Text 1> <Text 2> | Y'all Got Any More of Them
+yodawg <Text 1> <Text 2> | Xzibit Yo Dawg
+yuno <Text 1> <Text 2> | Y U NO Guy
+zerowing <Text 1> <Text 2> | All Your Base Are Belong to Us
+checktokens | Checks the tokens from Tokens.txt and removes invalid ones
+spamwebhook <Webhook URL> | Spams a webhook
+raidjoin <Invite Code> | Lets all tokens join the server
+raidleave <Server ID> | Lets all tokens leave the server
+raidmessage <Channel ID> <Amount> <Message> | Lets all tokens write messages in a channel
+raidfriendrequest <User ID> | Lets all tokens send friend requests to the user
+raidremovefriend <User ID> | Lets all tokens remove the user as friend
+raidnick <Guild ID> <Nickname> | Sets the nickname of all tokens on a server
+raidreact <Channel ID> <Message ID> <Emoji> | Lets all tokens react on a message with an emoji
+raidproxyjoin <Invite Code> | Lets all tokens join the server
+raidproxyleave <Server ID> | Lets all tokens leave the server
+raidproxymessage <Channel ID> <Amount> <Message> | Lets all tokens write messages in a channel
+raidproxyfriendrequest <User ID> | Lets all tokens send friend requests to the user
+raidproxyremovefriend <User ID> | Lets all tokens remove the user as friend
+raidproxynick <Guild ID> <Nickname> | Sets the nickname of all tokens on a server
+raidproxyreact <Channel ID> <Message ID> <Emoji> | Lets all tokens react on a message with an emoji
+cpp <Code> | C++ code block
+cs <Code> | C-Sharp code block
+java <Code> | Java code block
+py <Code> | Python code block
+js <Code> | JavaScript code block
+lua <Code> | Lua code block
+php <Code> | php code block
+html <Code> | HTML code block
+css <Code> | CSS code block
+yaml <Code> | YAML code block
+_json <Code> | JSON code block
+ini <Code> | INI code block
+xml <Code> | XML code block
+swift <Code> | Swift code block
+sql <Code> | SQL code block
+matlab <Code> | Matlab code block
+bash <Code> | Bash code block
+go <Code> | Go code block
+http <Code> | HTTP code block
+perl <Code> | Perl code block
+rust <Code> | Rust code block
+asciidoc <Code> | Asciidoc code block
+ahk <Code> | Autohotkey code block
+coffeescript <Code> | CoffeeScript code block
+diff <Code> | Diff code block
+fix <Code> | Fix code block
+ml <Code> | ML code block
+prolog <Code> | Prolog code block
+xl <Code> | XL code block
+ruby <Code> | Ruby code block
+iptype <IP Address> | Displays whether the IP is bad and what type it is
+ipresolve <IP Address> | Resolves an IP Address
+portscan <IP Address> | Scans an IP Address for open ports
+rdns <IP Address> | Scans for reverse DNS records
+host2ip <Domain> | Shows IP of host
+showping <IP Address> | Shows ping of an IP
+ban <User> | Bans an user
+softban <User> | Bans and unbans an user
+hackban <User ID> | Bans an user outside of the server
+unban <User ID> | Unban an user
+kick <User> | Kicks an user
+delinvites | Deletes all server invites
+addemoji <Name> <URL> | Adds an emoji
+editemoji <Emoji> <Name> | Renames the emoji
+emojidelete <Emoji> | Deletes the emoji
+lockchannel <Channel> | Locks a channel
+unlockchannel <Channel> | Unocks a channel
+slowmode <Seconds> | Set channel slowmode
+pin <Channel> <Message ID> | Pin a message
+unpin <Channel> <Message ID> | Unpin a message
+semimute <User> | Delete every message a user sends
+unsemimute <User> | Stop semi-mute for user
+clearsemimute | Clear semi-mute list
+nick <Member> <Nickname> | Set a nickname
+crawl <URL> | Crawl a website
+traceroute <IP> | Traceroute an IP 
+httpheaders <IP> | Show HTTP headers
+subnetcalc <Subnet> | Calculate a subnet mask
+aslookup <ASN> | ASN Lookup
+voice | Voice commands
+vcdisconnectall <Voice Channel> | Disconnects all clients from a voice channel
+vcdisconnect <Member> | Disconnects a client from a voice channel
+vcmovespam <Amount> | Moves all clients a specific amount of times to random channels
+vcdeafen <Member> | Deafens a member
+vcmute <Member> | Mutes a member
+vcundeafen <Member> | Undeafens a member
+vcunmute <Member> | Unmutes a member
+UNDOCUMENTED COMMANDS BELOW
+elixir <Code> | Elixir code block
+macresolve <MAC Address> | Resolves a MAC Address
+serverbandetection | Toggles server ban detection
+nserverban | Toggles server ban Windows notifications
+giveawaybotadd <Bot> <Emoji> | Adds a bot to the Giveaway sniper list
+jail <User> | Jail meme (BROKEN!)
+snow <User> | Snow meme
+meme | Shows a random meme
+vcmoveto <Member> <Voice Channel> | Moves a user to a voice channel
+customstatus <Emoji> <Text> | Edits your status
+trivia | Shows a trivia question
+whoasked | Tells you who asked
+sleekrestart <Test ID> | Restarts a Sleek.to attack
+NEW COMMANDS
+None yet
