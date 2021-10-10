@@ -1,1 +1,1 @@
-rm -rf Sounds/
+rm -rf Sound/
