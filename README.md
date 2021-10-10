@@ -8,6 +8,14 @@ Yeah this is my own version of flawcra's version (when finished will ask FlawCra
 ```
 # Maintained Version
 https://github.com/FlawCra/ReactSelfbot
+# Termux Fix
+```
+git clone https://github.com/404Ako/ReactSelfbot/
+cd ReactSelfbot
+bash termuxfix.sh
+pip install -r requirements.txt
+python react.py
+```
 # Credits
 ```
 Monarch#6465 for fixing text command
